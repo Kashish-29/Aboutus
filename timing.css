@@ -1,0 +1,68 @@
+
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url("timing.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: 'Roboto', sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	margin: 0;
+}
+
+.testimonials-container {
+	color: rgba(255, 255, 255, 0.8);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 70px 50px 50px;
+	transition: all 0.3s ease-in;
+	margin: 20px;
+	max-width: 100%;
+}
+
+.fa-quote-left {
+	color: rgba(0, 0, 0, 0.15);
+	font-size: 50px;
+}
+
+.text {
+	line-height: 30px;
+	margin: 40px 0 20px;
+	min-height: 150px;
+	max-width: 600px;
+	text-align: justify;
+	word-spacing: 5px;
+}
+
+.name {
+	align-self: flex-end;
+	font-weight: bold;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.credit{
+    text-align: center;
+    color: #000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .credit a{
+    text-decoration: none;
+    color:#000;
+    font-weight: bold;
+  } 
+.h5
+{
+	font: bold;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
